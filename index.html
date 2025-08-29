@@ -1,0 +1,884 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jasina K.C. - Full Stack Developer Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/prism/1.24.1/themes/prism-tomorrow.min.css" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" rel="stylesheet">
+</head>
+<body>
+    <!-- Glassmorphism Navigation -->
+    <nav class="navbar navbar-expand-lg fixed-top glassmorphism-nav">
+        <div class="container">
+            <a class="navbar-brand" href="#">
+                <div class="brand-container">
+                    <div class="brand-icon">
+                        <i class="fas fa-code"></i>
+                    </div>
+                    <span class="brand-text">Jasina K.C.</span>
+                </div>
+            </a>
+            <button class="navbar-toggler custom-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                        <a class="nav-link active" href="#" data-section="fullstack">
+                            <i class="fas fa-layer-group"></i>
+                            <span>Full Stack</span>
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#" data-section="html">
+                            <i class="fab fa-html5"></i>
+                            <span>HTML</span>
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#" data-section="css">
+                            <i class="fab fa-css3-alt"></i>
+                            <span>CSS</span>
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#" data-section="bootstrap">
+                            <i class="fab fa-bootstrap"></i>
+                            <span>Bootstrap</span>
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#" data-section="javascript">
+                            <i class="fab fa-js-square"></i>
+                            <span>JavaScript</span>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Loading Spinner -->
+    <div class="loading-overlay" id="loadingOverlay">
+        <div class="loading-spinner">
+            <div class="spinner-ring"></div>
+            <p>Loading Portfolio...</p>
+        </div>
+    </div>
+
+    <!-- Background Elements -->
+    <div class="background-elements">
+        <div class="floating-element element-1"></div>
+        <div class="floating-element element-2"></div>
+        <div class="floating-element element-3"></div>
+    </div>
+
+    <!-- Full Stack Development Section -->
+    <section id="fullstack" class="section active">
+        <div class="hero-section premium-hero">
+            <div class="hero-overlay"></div>
+            <div class="container">
+                <div class="row align-items-center min-vh-100">
+                    <div class="col-lg-6 hero-content">
+                        <div class="hero-badge">
+                        </div>
+                        <h1 class="hero-title">Full Stack Development</h1>
+                        <p class="hero-subtitle">Mastering the complete web development lifecycle with cutting-edge technologies and professional expertise.</p>
+                        <div class="hero-stats">
+                            <div class="stat-item">
+                                <div class="stat-number">5+</div>
+                                <div class="stat-label">Technologies</div>
+                            </div>
+                            <div class="stat-item">
+                                <div class="stat-number">10+</div>
+                                <div class="stat-label">Projects</div>
+                            </div>
+                            <div class="stat-item">
+                                <div class="stat-number">100%</div>
+                                <div class="stat-label">Dedication</div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-6">
+                        <div class="tech-visualization">
+                            <div class="tech-orbit">
+                                <div class="tech-center">
+                                    <i class="fas fa-code"></i>
+                                    <span>Full Stack</span>
+                                </div>
+                                <div class="tech-planet frontend" data-tech="Frontend">
+                                    <i class="fas fa-desktop"></i>
+                                </div>
+                                <div class="tech-planet backend" data-tech="Backend">
+                                    <i class="fas fa-server"></i>
+                                </div>
+                                <div class="tech-planet database" data-tech="Database">
+                                    <i class="fas fa-database"></i>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        <div class="container py-5">
+            <div class="row">
+                <div class="col-12">
+                    <div class="premium-card glassmorphism">
+                        <div class="card-glow"></div>
+                        <div class="card-body">
+                            <h2 class="section-title">What is Full Stack Development?</h2>
+                            <p class="section-description">Full Stack Development encompasses the complete spectrum of web application development, from user-facing interfaces to server-side logic and database management. A full stack developer possesses the versatility to work across all layers of modern web applications.</p>
+                            
+                            <div class="skills-showcase">
+                                <div class="skill-category">
+                                    <div class="skill-icon frontend-color">
+                                        <i class="fas fa-paint-brush"></i>
+                                    </div>
+                                    <h4>Frontend Mastery</h4>
+                                    <p>Creating stunning, responsive user interfaces with modern frameworks and vanilla technologies.</p>
+                                    <div class="progress-ring" data-progress="95">
+                                        <svg width="120" height="120">
+                                            <circle cx="60" cy="60" r="54" fill="none" stroke="#E0F7FA" stroke-width="8"/>
+                                            <circle cx="60" cy="60" r="54" fill="none" stroke="#00BCD4" stroke-width="8" stroke-linecap="round" transform="rotate(-90 60 60)"/>
+                                        </svg>
+                                        <div class="progress-text">95%</div>
+                                    </div>
+                                </div>
+                                
+                                <div class="skill-category">
+                                    <div class="skill-icon backend-color">
+                                        <i class="fas fa-cogs"></i>
+                                    </div>
+                                    <h4>Backend Expertise</h4>
+                                    <p>Building robust server architectures, APIs, and handling complex business logic efficiently.</p>
+                                    <div class="progress-ring" data-progress="88">
+                                        <svg width="120" height="120">
+                                            <circle cx="60" cy="60" r="54" fill="none" stroke="#E0F7FA" stroke-width="8"/>
+                                            <circle cx="60" cy="60" r="54" fill="none" stroke="#0097A7" stroke-width="8" stroke-linecap="round" transform="rotate(-90 60 60)"/>
+                                        </svg>
+                                        <div class="progress-text">88%</div>
+                                    </div>
+                                </div>
+                                
+                                <div class="skill-category">
+                                    <div class="skill-icon database-color">
+                                        <i class="fas fa-database"></i>
+                                    </div>
+                                    <h4>Database Design</h4>
+                                    <p>Architecting scalable data solutions and optimizing query performance for modern applications.</p>
+                                    <div class="progress-ring" data-progress="82">
+                                        <svg width="120" height="120">
+                                            <circle cx="60" cy="60" r="54" fill="none" stroke="#E0F7FA" stroke-width="8"/>
+                                            <circle cx="60" cy="60" r="54" fill="none" stroke="#26C6DA" stroke-width="8" stroke-linecap="round" transform="rotate(-90 60 60)"/>
+                                        </svg>
+                                        <div class="progress-text">82%</div>
+                                    </div>
+                                </div>
+                            </div>
+                            
+                            <div class="tech-stack-grid">
+                                <div class="tech-item" data-category="frontend">
+                                    <i class="fab fa-html5" style="color: #E34F26;"></i>
+                                    <span>HTML5</span>
+                                </div>
+                                <div class="tech-item" data-category="frontend">
+                                    <i class="fab fa-css3-alt" style="color: #1572B6;"></i>
+                                    <span>CSS3</span>
+                                </div>
+                                <div class="tech-item" data-category="frontend">
+                                    <i class="fab fa-js-square" style="color: #F7DF1E;"></i>
+                                    <span>JavaScript</span>
+                                </div>
+                                <div class="tech-item" data-category="framework">
+                                    <i class="fab fa-react" style="color: #61DAFB;"></i>
+                                    <span>React</span>
+                                </div>
+                                <div class="tech-item" data-category="backend">
+                                    <i class="fab fa-node-js" style="color: #339933;"></i>
+                                    <span>Node.js</span>
+                                </div>
+                                <div class="tech-item" data-category="database">
+                                    <i class="fas fa-database" style="color: #47A248;"></i>
+                                    <span>MongoDB</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12"> 
+  <div class="pdf-section"> 
+    <div class="pdf-card glassmorphism"> 
+      <div class="pdf-icon"> 
+        <i class="fas fa-file-pdf"></i> 
+      </div> 
+      <div class="pdf-content"> 
+        <h5>HTML Assignment Documentation</h5> 
+        <p>Complete HTML assignment with detailed explanations and best practices</p> 
+      </div> 
+      <button class="btn-pdf" onclick="window.open('PDFs/full stack.pdf', '_blank')"> 
+        <i class="fas fa-external-link-alt"></i> 
+        <span>View Assignment PDF</span> 
+      </button> 
+    </div> 
+  </div> 
+</div>
+            </div>
+        </div>
+    </section>
+
+    <!-- HTML Section -->
+    <section id="html" class="section">
+        <div class="hero-section html-hero">
+            <div class="hero-overlay"></div>
+            <div class="container">
+                <div class="row align-items-center">
+                    <div class="col-lg-8 mx-auto text-center">
+                        <div class="hero-icon">
+                            <i class="fab fa-html5"></i>
+                        </div>
+                        <h1 class="hero-title">HTML5 Semantic Excellence</h1>
+                        <p class="hero-subtitle">Modern markup with accessibility, semantic structure, and progressive enhancement</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="container py-5">
+            <div class="row">
+                <div class="col-lg-6 mb-4">
+                    <div class="premium-card glassmorphism">
+                        <div class="card-header-custom">
+                            <h4><i class="fas fa-code me-2"></i>Semantic HTML Structure</h4>
+                        </div>
+                        <div class="card-body">
+                            <div class="live-demo">
+                                <article class="demo-article">
+                                    <header class="article-header">
+                                        <h5>Modern Web Development</h5>
+                                        <time datetime="2025-08-27" class="article-date">
+                                            <i class="far fa-calendar"></i>
+                                            August 27, 2025
+                                        </time>
+                                    </header>
+                                    <main class="article-content">
+                                        <p>This demonstrates semantic HTML5 elements in action, providing better accessibility and SEO optimization.</p>
+                                        <p>Using proper semantic tags enhances the document structure and meaning.</p>
+                                    </main>
+                                    <footer class="article-footer">
+                                        <address class="author">
+                                            <strong>By:</strong> Jasina K.C.
+                                        </address>
+                                    </footer>
+                                </article>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-6 mb-4">
+                    <div class="premium-card glassmorphism">
+                        <div class="card-header-custom">
+                            <h4><i class="fas fa-terminal me-2"></i>HTML Code</h4>
+                        </div>
+                        <div class="card-body">
+                            <pre class="code-block"><code class="language-html">&lt;article&gt;
+  &lt;header&gt;
+    &lt;h5&gt;Modern Web Development&lt;/h5&gt;
+    &lt;time datetime="2025-08-27"&gt;
+      August 27, 2025
+    &lt;/time&gt;
+  &lt;/header&gt;
+  &lt;main&gt;
+    &lt;p&gt;Semantic HTML5 elements in action...&lt;/p&gt;
+  &lt;/main&gt;
+  &lt;footer&gt;
+    &lt;address&gt;
+      &lt;strong&gt;By:&lt;/strong&gt; Jasina K.C.
+    &lt;/address&gt;
+  &lt;/footer&gt;
+&lt;/article&gt;</code></pre>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-12 mb-4">
+                    <div class="premium-card glassmorphism">
+                        <div class="card-header-custom">
+                            <h4><i class="fas fa-form me-2"></i>Advanced HTML Form</h4>
+                        </div>
+                        <div class="card-body">
+                            <form id="html-demo-form" class="premium-form">
+                                <div class="row">
+                                    <div class="col-md-6">
+                                        <div class="form-group">
+                                            <label for="name" class="form-label">Full Name</label>
+                                            <input type="text" class="form-control" id="name" name="name" required autocomplete="name">
+                                            <div class="form-feedback"></div>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-6">
+                                        <div class="form-group">
+                                            <label for="email" class="form-label">Email Address</label>
+                                            <input type="email" class="form-control" id="email" name="email" required autocomplete="email">
+                                            <div class="form-feedback"></div>
+                                        </div>
+                                    </div>
+                                    <div class="col-12">
+                                        <div class="form-group">
+                                            <label for="message" class="form-label">Message</label>
+                                            <textarea class="form-control" id="message" name="message" rows="4" placeholder="Your message here..."></textarea>
+                                        </div>
+                                    </div>
+                                    <div class="col-12">
+                                        <button type="submit" class="btn btn-premium">
+                                            <span class="btn-text">Submit Form</span>
+                                            <span class="btn-loader"><i class="fas fa-spinner fa-spin"></i></span>
+                                        </button>
+                                        <div id="form-result" class="form-result"></div>
+                                    </div>
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-12"> 
+  <div class="pdf-section"> 
+    <div class="pdf-card glassmorphism"> 
+      <div class="pdf-icon"> 
+        <i class="fas fa-file-pdf"></i> 
+      </div> 
+      <div class="pdf-content"> 
+        <h5>HTML Assignment Documentation</h5> 
+        <p>Complete HTML assignment with detailed explanations and best practices</p> 
+      </div> 
+      <button class="btn-pdf" onclick="window.open('PDFs/HTML.pdf', '_blank')"> 
+        <i class="fas fa-external-link-alt"></i> 
+        <span>View Assignment PDF</span> 
+      </button> 
+    </div> 
+  </div> 
+</div>
+            </div>
+        </div>
+    </section>
+
+    <!-- CSS Section -->
+    <section id="css" class="section">
+        <div class="hero-section css-hero">
+            <div class="hero-overlay"></div>
+            <div class="container">
+                <div class="row align-items-center">
+                    <div class="col-lg-8 mx-auto text-center">
+                        <div class="hero-icon">
+                            <i class="fab fa-css3-alt"></i>
+                        </div>
+                        <h1 class="hero-title">CSS3 Advanced Styling</h1>
+                        <p class="hero-subtitle">Modern layouts, animations, responsive design, and cutting-edge CSS techniques</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="container py-5">
+            <div class="row">
+                <div class="col-lg-4 mb-4">
+                    <div class="premium-card glassmorphism">
+                        <div class="card-header-custom">
+                            <h4><i class="fas fa-th me-2"></i>CSS Grid Mastery</h4>
+                        </div>
+                        <div class="card-body">
+                            <div class="css-grid-demo">
+                                <div class="grid-item item-1">Header</div>
+                                <div class="grid-item item-2">Sidebar</div>
+                                <div class="grid-item item-3">Content</div>
+                                <div class="grid-item item-4">Footer</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-4 mb-4">
+                    <div class="premium-card glassmorphism">
+                        <div class="card-header-custom">
+                            <h4><i class="fas fa-magic me-2"></i>CSS Animations</h4>
+                        </div>
+                        <div class="card-body text-center">
+                            <div class="animation-showcase">
+                                <div class="animated-element pulse" data-animation="pulse">
+                                    <i class="fas fa-heart"></i>
+                                </div>
+                                <div class="animated-element bounce" data-animation="bounce">
+                                    <i class="fas fa-star"></i>
+                                </div>
+                                <div class="animated-element rotate" data-animation="rotate">
+                                    <i class="fas fa-cog"></i>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-4 mb-4">
+                    <div class="premium-card glassmorphism">
+                        <div class="card-header-custom">
+                            <h4><i class="fas fa-arrows-alt me-2"></i>Flexbox Layout</h4>
+                        </div>
+                        <div class="card-body">
+                            <div class="flexbox-demo">
+                                <div class="flex-item">Flex 1</div>
+                                <div class="flex-item">Flex 2</div>
+                                <div class="flex-item">Flex 3</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-12 mb-4">
+                    <div class="premium-card glassmorphism">
+                        <div class="card-header-custom">
+                            <h4><i class="fas fa-code me-2"></i>Advanced CSS Features</h4>
+                        </div>
+                        <div class="card-body">
+                            <div class="css-features">
+                                <div class="feature-demo glassmorphism-demo">
+                                    <h6>Glassmorphism Effect</h6>
+                                    <p>Beautiful frosted glass aesthetic with backdrop blur</p>
+                                </div>
+                                <div class="feature-demo gradient-demo">
+                                    <h6>Complex Gradients</h6>
+                                    <p>Multi-stop gradients with perfect color transitions</p>
+                                </div>
+                                <div class="feature-demo shadow-demo">
+                                    <h6>Layered Shadows</h6>
+                                    <p>Multiple shadow layers for depth and dimension</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-12"> 
+  <div class="pdf-section"> 
+    <div class="pdf-card glassmorphism"> 
+      <div class="pdf-icon"> 
+        <i class="fas fa-file-pdf"></i> 
+      </div> 
+      <div class="pdf-content"> 
+        <h5>HTML Assignment Documentation</h5> 
+        <p>Complete HTML assignment with detailed explanations and best practices</p> 
+      </div> 
+      <button class="btn-pdf" onclick="window.open('PDFs/CSS.pdf', '_blank')"> 
+        <i class="fas fa-external-link-alt"></i> 
+        <span>View Assignment PDF</span> 
+      </button> 
+    </div> 
+  </div> 
+</div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Bootstrap Section -->
+    <section id="bootstrap" class="section">
+        <div class="hero-section bootstrap-hero">
+            <div class="hero-overlay"></div>
+            <div class="container">
+                <div class="row align-items-center">
+                    <div class="col-lg-8 mx-auto text-center">
+                        <div class="hero-icon">
+                            <i class="fab fa-bootstrap"></i>
+                        </div>
+                        <h1 class="hero-title">Bootstrap Framework Mastery</h1>
+                        <p class="hero-subtitle">Responsive components, utility classes, and custom theme development</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="container py-5">
+            <div class="row">
+                <div class="col-lg-4 mb-4">
+                    <div class="premium-card glassmorphism bootstrap-card">
+                        <div class="card-header-custom">
+                            <h5><i class="fas fa-th-large me-2"></i>Grid System</h5>
+                        </div>
+                        <div class="card-body">
+                            <p>Bootstrap's 12-column responsive grid system with advanced breakpoints.</p>
+                            <div class="bootstrap-grid-demo">
+                                <div class="grid-col">Col 1</div>
+                                <div class="grid-col">Col 2</div>
+                                <div class="grid-col">Col 3</div>
+                            </div>
+                            <div class="progress mt-3">
+                                <div class="progress-bar bg-primary" style="width: 90%">90%</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-4 mb-4">
+                    <div class="premium-card glassmorphism bootstrap-card">
+                        <div class="card-header-custom">
+                            <h5><i class="fas fa-palette me-2"></i>Components</h5>
+                        </div>
+                        <div class="card-body">
+                            <p>Rich component library with customizable themes and variants.</p>
+                            <div class="component-showcase">
+                                <button class="btn btn-primary btn-sm">Primary</button>
+                                <button class="btn btn-success btn-sm">Success</button>
+                                <button class="btn btn-info btn-sm">Info</button>
+                            </div>
+                            <div class="alert alert-success mt-3">
+                                <i class="fas fa-check-circle me-2"></i>
+                                Bootstrap components in action!
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-4 mb-4">
+                    <div class="premium-card glassmorphism bootstrap-card">
+                        <div class="card-header-custom">
+                            <h5><i class="fas fa-mobile-alt me-2"></i>Responsive</h5>
+                        </div>
+                        <div class="card-body">
+                            <p>Mobile-first approach with flexible breakpoints and utilities.</p>
+                            <button type="button" class="btn btn-outline-primary" data-bs-toggle="modal" data-bs-target="#bootstrapModal">
+                                <i class="fas fa-window-maximize me-2"></i>
+                                Open Modal
+                            </button>
+                            <div class="responsive-badges mt-3">
+                                <span class="badge bg-primary">XS</span>
+                                <span class="badge bg-success">SM</span>
+                                <span class="badge bg-info">MD</span>
+                                <span class="badge bg-warning">LG</span>
+                                <span class="badge bg-danger">XL</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-12 mb-4">
+                    <div class="premium-card glassmorphism">
+                        <div class="card-header-custom">
+                            <h4><i class="fas fa-tools me-2"></i>Bootstrap Utilities & Advanced Features</h4>
+                        </div>
+                        <div class="card-body">
+                            <div class="utility-demo">
+                                <div class="utility-section">
+                                    <h6>Spacing Utilities</h6>
+                                    <div class="d-flex gap-3">
+                                        <div class="p-3 bg-light border rounded">Padding</div>
+                                        <div class="m-3 bg-light border rounded">Margin</div>
+                                        <div class="px-4 py-2 bg-light border rounded">Custom</div>
+                                    </div>
+                                </div>
+                                <div class="utility-section">
+                                    <h6>Color System</h6>
+                                    <div class="d-flex flex-wrap gap-2">
+                                        <div class="color-swatch bg-primary"></div>
+                                        <div class="color-swatch bg-secondary"></div>
+                                        <div class="color-swatch bg-success"></div>
+                                        <div class="color-swatch bg-danger"></div>
+                                        <div class="color-swatch bg-warning"></div>
+                                        <div class="color-swatch bg-info"></div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-12"> 
+  <div class="pdf-section"> 
+    <div class="pdf-card glassmorphism"> 
+      <div class="pdf-icon"> 
+        <i class="fas fa-file-pdf"></i> 
+      </div> 
+      <div class="pdf-content"> 
+        <h5>HTML Assignment Documentation</h5> 
+        <p>Complete HTML assignment with detailed explanations and best practices</p> 
+      </div> 
+      <button class="btn-pdf" onclick="window.open('PDFs/Bootstrap Framework.pdf', '_blank')"> 
+        <i class="fas fa-external-link-alt"></i> 
+        <span>View Assignment PDF</span> 
+      </button> 
+    </div> 
+  </div> 
+</div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Bootstrap Modal -->
+        <div class="modal fade" id="bootstrapModal" tabindex="-1">
+            <div class="modal-dialog modal-dialog-centered">
+                <div class="modal-content glassmorphism">
+                    <div class="modal-header">
+                        <h5 class="modal-title">
+                            <i class="fab fa-bootstrap me-2"></i>
+                            Bootstrap Modal Component
+                        </h5>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+                    </div>
+                    <div class="modal-body">
+                        <p>This modal demonstrates Bootstrap's JavaScript component integration with custom styling and glassmorphism effects.</p>
+                        <div class="modal-feature">
+                            <i class="fas fa-check-circle text-success me-2"></i>
+                            Responsive and accessible
+                        </div>
+                        <div class="modal-feature">
+                            <i class="fas fa-check-circle text-success me-2"></i>
+                            Custom animations and transitions
+                        </div>
+                        <div class="modal-feature">
+                            <i class="fas fa-check-circle text-success me-2"></i>
+                            Modern glassmorphism design
+                        </div>
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                        <button type="button" class="btn btn-premium">
+                            <i class="fas fa-save me-2"></i>Save Changes
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- JavaScript Section -->
+    <section id="javascript" class="section">
+        <div class="hero-section javascript-hero">
+            <div class="hero-overlay"></div>
+            <div class="container">
+                <div class="row align-items-center">
+                    <div class="col-lg-8 mx-auto text-center">
+                        <div class="hero-icon">
+                            <i class="fab fa-js-square"></i>
+                        </div>
+                        <h1 class="hero-title">JavaScript Interactive Excellence</h1>
+                        <p class="hero-subtitle">Modern ES6+, DOM manipulation, API integration, and dynamic web applications</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="container py-5">
+            <div class="row">
+                <div class="col-lg-6 mb-4">
+                    <div class="premium-card glassmorphism">
+                        <div class="card-header-custom">
+                            <h4><i class="fas fa-code-branch me-2"></i>DOM Manipulation</h4>
+                        </div>
+                        <div class="card-body">
+                            <div class="js-demo">
+                                <div class="input-group mb-3">
+                                    <input type="text" id="textInput" class="form-control" placeholder="Enter dynamic text...">
+                                    <button class="btn btn-premium" onclick="updateText()">
+                                        <i class="fas fa-sync-alt me-2"></i>Update
+                                    </button>
+                                </div>
+                                <div id="dynamicText" class="dynamic-output">
+                                    <i class="fas fa-arrow-right me-2"></i>Dynamic content will appear here
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-6 mb-4">
+                    <div class="premium-card glassmorphism">
+                        <div class="card-header-custom">
+                            <h4><i class="fas fa-mouse-pointer me-2"></i>Event Handling</h4>
+                        </div>
+                        <div class="card-body">
+                            <div class="js-demo">
+                                <div id="clickCounter" class="click-counter">
+                                    <div class="counter-display">
+                                        <span class="counter-number">0</span>
+                                        <span class="counter-label">Clicks</span>
+                                    </div>
+                                </div>
+                                <button id="counterBtn" class="btn btn-success btn-lg mt-3">
+                                    <i class="fas fa-hand-pointer me-2"></i>Click Me!
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-6 mb-4">
+                    <div class="premium-card glassmorphism">
+                        <div class="card-header-custom">
+                            <h4><i class="fas fa-cloud-download-alt me-2"></i>API Integration</h4>
+                        </div>
+                        <div class="card-body">
+                            <div class="js-demo">
+                                <button onclick="fetchData()" class="btn btn-info mb-3">
+                                    <i class="fas fa-download me-2"></i>Fetch Sample Data
+                                </button>
+                                <div id="apiResult" class="api-result"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-6 mb-4">
+                    <div class="premium-card glassmorphism">
+                        <div class="card-header-custom">
+                            <h4><i class="fas fa-calculator me-2"></i>Interactive Calculator</h4>
+                        </div>
+                        <div class="card-body">
+                            <div class="calculator-demo">
+                                <div class="row mb-3">
+                                    <div class="col-6">
+                                        <input type="number" id="num1" class="form-control" placeholder="First number">
+                                    </div>
+                                    <div class="col-6">
+                                        <input type="number" id="num2" class="form-control" placeholder="Second number">
+                                    </div>
+                                </div>
+                                <div class="calculator-buttons mb-3">
+                                    <button onclick="calculate('+')" class="btn btn-outline-primary calc-btn">+</button>
+                                    <button onclick="calculate('-')" class="btn btn-outline-primary calc-btn">-</button>
+                                    <button onclick="calculate('*')" class="btn btn-outline-primary calc-btn">×</button>
+                                    <button onclick="calculate('/')" class="btn btn-outline-primary calc-btn">÷</button>
+                                </div>
+                                <div id="calcResult" class="calc-result"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-12 mb-4">
+                    <div class="premium-card glassmorphism">
+                        <div class="card-header-custom">
+                            <h4><i class="fas fa-chart-line me-2"></i>Advanced JavaScript Features</h4>
+                        </div>
+                        <div class="card-body">
+                            <div class="js-features">
+                                <div class="feature-demo">
+                                    <h6>Async/Await Operations</h6>
+                                    <div class="feature-showcase">
+                                        <button class="btn btn-warning" onclick="demonstrateAsync()">
+                                            <i class="fas fa-clock me-2"></i>Demo Async
+                                        </button>
+                                        <div id="asyncResult" class="feature-result"></div>
+                                    </div>
+                                </div>
+                                <div class="feature-demo">
+                                    <h6>ES6+ Features</h6>
+                                    <div class="feature-showcase">
+                                        <button class="btn btn-success" onclick="demonstrateES6()">
+                                            <i class="fas fa-code me-2"></i>Demo ES6+
+                                        </button>
+                                        <div id="es6Result" class="feature-result"></div>
+                                    </div>
+                                </div>
+                                <div class="feature-demo">
+                                    <h6>Local Storage</h6>
+                                    <div class="feature-showcase">
+                                        <input type="text" id="storageInput" class="form-control mb-2" placeholder="Enter data to store">
+                                        <button class="btn btn-info me-2" onclick="saveData()">
+                                            <i class="fas fa-save me-1"></i>Save
+                                        </button>
+                                        <button class="btn btn-secondary" onclick="loadData()">
+                                            <i class="fas fa-upload me-1"></i>Load
+                                        </button>
+                                        <div id="storageResult" class="feature-result"></div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-12"> 
+  <div class="pdf-section"> 
+    <div class="pdf-card glassmorphism"> 
+      <div class="pdf-icon"> 
+        <i class="fas fa-file-pdf"></i> 
+      </div> 
+      <div class="pdf-content"> 
+        <h5>HTML Assignment Documentation</h5> 
+        <p>Complete HTML assignment with detailed explanations and best practices</p> 
+      </div> 
+      <button class="btn-pdf" onclick="window.open('PDFs/JavaScript.pdf', '_blank')"> 
+        <i class="fas fa-external-link-alt"></i> 
+        <span>View Assignment PDF</span> 
+      </button> 
+    </div> 
+  </div> 
+</div>
+            </div>
+        </div>
+    </section>
+
+    <!--Footer -->
+    <footer class="premium-footer">
+        <div class="footer-overlay"></div>
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6">
+                    <div class="footer-brand">
+                        <h4>Jasina K.C.</h4>
+                        <p>Full Stack Developer with expertise in modern web technologies and frameworks. Passionate about creating exceptional digital experiences.</p>
+                        <div class="social-links">
+                            <a href="#" class="social-link">
+                                <i class="fab fa-github"></i>
+                            </a>
+                            <a href="#" class="social-link">
+                                <i class="fab fa-linkedin"></i>
+                            </a>
+                            <a href="#" class="social-link">
+                                <i class="fab fa-twitter"></i>
+                            </a>
+                            <a href="#" class="social-link">
+                                <i class="fas fa-envelope"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <div class="footer-skills">
+                        <h5>Technical Expertise</h5>
+                        <div class="skill-tags">
+                            <span class="skill-tag">HTML5</span>
+                            <span class="skill-tag">CSS3</span>
+                            <span class="skill-tag">JavaScript ES6+</span>
+                            <span class="skill-tag">React</span>
+                            <span class="skill-tag">Node.js</span>
+                            <span class="skill-tag">Bootstrap</span>
+                            <span class="skill-tag">MongoDB</span>
+                            <span class="skill-tag">Express.js</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <div class="row">
+                    <div class="col-12 text-center">
+                        <p>&copy; 2025 Jasina K.C. - CET138 Full Stack Development Assignment 1</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Scripts -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.24.1/components/prism-core.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.24.1/plugins/autoloader/prism-autoloader.min.js"></script>
+    <script src="app.js"></script>
+</body>
+</html>
